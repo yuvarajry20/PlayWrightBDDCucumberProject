@@ -12,6 +12,7 @@ module.exports = {
     format: [
       "progress-bar",
       "json:test-results/report.json",
+      "html:test-results/report.html",
       "rerun:@rerun.txt"
     ],
     requireModule: ["ts-node/register"],

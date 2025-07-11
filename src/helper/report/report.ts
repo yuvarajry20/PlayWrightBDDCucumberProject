@@ -13,7 +13,7 @@ console.log("⏱ Total Duration:", duration);
 
 report.generate({
   jsonDir: "test-results",
-  reportPath: "./html-report",
+  reportPath: "test-results/html-report",
   reportName: "Playwright BDD Report",
   pageTitle: "DemoWebShop BDD Test Report",
   metadata: {
